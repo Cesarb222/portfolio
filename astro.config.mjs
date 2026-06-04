@@ -3,7 +3,7 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://cesarb222.github.io',
-  base: '/portfolio',
-  output: 'static'
+    output: 'static', // ya soporta endpoints, hybrid ya no existe
+    site: 'https://github.com/Cesarb222',
+    base: '/portfolio'
 });
