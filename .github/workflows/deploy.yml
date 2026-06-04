@@ -32,6 +32,9 @@ jobs:
       - name: Construir proyecto
         run: npm run build
 
+      - name: Prevenir que Jekyll borre el CSS
+        run: touch ./dist/.nojekyll
+        
       - name: Subir artefacto
         uses: actions/upload-pages-artifact@v3
         with:
