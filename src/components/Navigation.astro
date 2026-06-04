@@ -1,0 +1,70 @@
+---
+---
+
+<nav class="nav-wrapper">
+  <a href="/#hero" class="nav-logo">César<span>.</span></a>
+
+  <ul class="nav-links">
+    <li><a href="/#hero">Inicio</a></li>
+    <li><a href="/#experiencia">Experiencia</a></li>
+    <li><a href="/#skills">Skills</a></li>
+    <li><a href="/#proyectos">Proyectos</a></li>
+    <li><a href="/#contacto">Contacto</a></li>
+  </ul>
+
+  <a href="/CV_JuanCesarMartinM.pdf" download class="nav-cv">CV</a>
+</nav>
+
+<style>
+  .nav-wrapper {
+    background: #181818;
+    border-bottom: 0.5px solid #2E2E2E;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .nav-logo {
+    font-size: 15px;
+    font-weight: 500;
+    color: #F0F0F0;
+    text-decoration: none;
+  }
+
+  .nav-logo span { color: var(--c-orange); }
+
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+    color: var(--c-text-muted);
+    text-decoration: none;
+  }
+
+  .nav-links a:hover { color: var(--c-orange); }
+
+  .nav-cv {
+    font-size: 13px;
+    color: var(--c-orange);
+    border: 0.5px solid var(--c-orange);
+    border-radius: 8px;
+    padding: 6px 14px;
+    text-decoration: none;
+  }
+
+  .nav-cv:hover {
+    background: var(--c-orange);
+    color: #fff;
+  }
+</style>

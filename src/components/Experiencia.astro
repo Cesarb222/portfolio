@@ -1,0 +1,205 @@
+---
+---
+
+<section id="experiencia" data-aos="zoom-in-left" data-aos-dalay="1000">
+  <div class="container">
+    <p class="section-label">Trayectoria</p>
+  <h2 class="section-title">Experiencia profesional</h2>
+
+  <div class="timeline">
+
+    <div class="timeline-item" data-aos="zoom-in-left" data-aos-duration="1000">
+      <div class="timeline-dot"></div>
+      <div class="exp-card">
+        <div class="exp-header">
+          <p class="exp-company">Tragsatec · Grupo Tragsa</p>
+          <span class="exp-date">Mar 2026 – Jun 2026</span>
+        </div>
+        <p class="exp-role">Becario Desarrollo TTEC · Toledo, España</p>
+        <ul class="exp-list">
+          <li>Implementé pipelines de carga de datos con Pentaho (Business Intelligence).</li>
+          <li>Desarrollé componentes reutilizables en Python con el framework py4web (MVC).</li>
+          <li>Diseñé vistas SQL optimizadas en PostgreSQL.</li>
+          <li>Manipulación del DOM con fetch y AJAX.</li>
+          <li>Desarrollo aplicando el patrón de diseño Registry.</li>
+        </ul>
+        <div class="exp-tags">
+            <span class="tag">Java</span>
+            <span class="tag">Spring Boot</span>
+          <span class="tag">Python</span>
+          <span class="tag">py4web</span>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">Pentaho</span>
+          <span class="tag">AJAX</span>
+          <span class="tag">MVC</span>
+          <span class="tag">Jquery</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline-item" data-aos="zoom-in-left" data-aos-duration="1000">
+      <div class="timeline-dot"></div>
+      <div class="exp-card">
+        <div class="exp-header">
+          <p class="exp-company">Osman Padel</p>
+          <span class="exp-date">Mar 2025 – Jun 2025</span>
+        </div>
+        <p class="exp-role">Desarrollador Web · Torrijos, España</p>
+        <ul class="exp-list">
+          <li>Plataforma web de gestión de pádel con 13 ligas activas en producción.</li>
+          <li>Autenticación segura con Google mediante Firebase Auth.</li>
+          <li>Sistema de torneos con clasificación automática y registro de resultados.</li>
+          <li>Base de datos en tiempo real con Firebase y despliegue en Firebase Hosting.</li>
+          <li>Interfaz responsiva para móvil y escritorio.</li>
+        </ul>
+        <div class="exp-tags">
+          <span class="tag">JavaScript</span>
+          <span class="tag">Firebase</span>
+          <span class="tag">HTML/CSS</span>
+          <span class="tag">Firebase Auth</span>
+          <span class="tag">Responsive</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+</section>
+
+<style>
+  #experiencia {
+    padding: 5rem 0;
+  }
+
+  .section-label {
+    font-size: 12px;
+    color: var(--c-orange);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0 0 0.5rem;
+  }
+
+  .section-title {
+    font-size: 22px;
+    font-weight: 500;
+    color: #F0F0F0;
+    margin: 0 0 2.5rem;
+  }
+
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 28px;
+  }
+
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: 8px;
+    bottom: 8px;
+    width: 1px;
+    background: #2E2E2E;
+  }
+
+  .timeline-item {
+    position: relative;
+    padding-bottom: 2rem;
+  }
+
+  .timeline-item:last-child { padding-bottom: 0; }
+
+  .timeline-dot {
+    position: absolute;
+    left: -25px;
+    top: 6px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--c-orange);
+    border: 2px solid #141414;
+  }
+
+  .exp-card {
+    background: #1E1E1E;
+    border: 0.5px solid #2E2E2E;
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+  }
+
+  .exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 6px;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .exp-company {
+    font-size: 15px;
+    font-weight: 500;
+    color: #F0F0F0;
+    margin: 0;
+  }
+
+  .exp-date {
+    font-size: 12px;
+    color: var(--c-orange);
+    background: rgba(232,99,26,0.1);
+    border: 0.5px solid rgba(232,99,26,0.3);
+    border-radius: 99px;
+    padding: 3px 10px;
+    white-space: nowrap;
+  }
+
+  .exp-role {
+    font-size: 13px;
+    color: var(--c-text-muted);
+    margin: 0 0 12px;
+  }
+
+  .exp-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .exp-list li {
+    font-size: 13px;
+    color: #BEBEBE;
+    line-height: 1.6;
+    padding-left: 14px;
+    position: relative;
+  }
+
+  .exp-list li::before {
+    content: '▸';
+    position: absolute;
+    left: 0;
+    color: var(--c-orange);
+    font-size: 11px;
+  }
+
+  .exp-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 0.5px solid #2A2A2A;
+  }
+
+  .tag {
+    font-size: 11px;
+    background: #2A2A2A;
+    color: var(--c-text-muted);
+    border-radius: 4px;
+    padding: 3px 8px;
+  }
+</style>

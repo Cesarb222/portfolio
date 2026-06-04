@@ -1,0 +1,136 @@
+---
+---
+
+<section class="hero" id="hero" data-aos="fade-up"
+     data-aos-duration="1000">
+  <div class="hero-top">
+    <img src="/fotoCésar.jpg" id="fotoUsuario" alt="Juan César Martín" class="avatar" />
+    <div>
+      <h1 class="hero-name">Juan César Martín</h1>
+      <p class="hero-role">Desarrollador Fullstack</p>
+    </div>
+  </div>
+
+  <div class="hero-badges">
+    <span class="badge"> <img src="/pin.svg" alt=""> Toledo, España</span>
+    <span class="badge"><img src="/job.svg" alt=""> Disponible</span>
+    <span class="badge"><img src="/academy.svg" alt=""> DAM + DAW + SMR</span>
+  </div>
+
+  <p class="hero-bio">
+    Desarrollador fullstack con experiencia real en producción.
+     He construido plataformas con 13 ligas activas, pipelines de datos y apps móviles. 
+     Me adapto rápido a cualquier stack; si no lo conozco, lo aprendo. Busco un equipo donde la tecnología tenga impacto real.
+  </p>
+
+  <div class="hero-links">
+    <a href="/CV_JuanCesarMartinM.pdf" download class="btn-primary">Descargar CV</a>
+    <a href="https://github.com/Cesarb222" target="_blank" class="btn-secondary">GitHub</a>
+    <a href="https://linkedin.com/in/jcesarmma" target="_blank" class="btn-secondary">LinkedIn</a>
+    <a href="#contacto" class="btn-secondary">Contacto</a>
+  </div>
+</section>
+
+<style>
+  .hero {
+
+    background: var(--c-dark);
+    border-radius: 16px;
+    padding: 3rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  .hero-top {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid var(--c-orange);
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  .hero-name {
+    font-size: 26px;
+    font-weight: 500;
+    color: #F0F0F0;
+    margin: 0 0 4px;
+  }
+
+  .hero-role {
+    font-size: 14px;
+    color: var(--c-orange);
+    margin: 0;
+  }
+
+  .hero-badges {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .badge {
+    font-size: 12px;
+    background: #2A2A2A;
+    color: var(--c-text-muted);
+    border: 0.5px solid #333;
+    border-radius: 99px;
+    padding: 3px 10px;
+    display: flex;
+    gap: 5px;
+  }
+  .badge img{
+    width: 15px;
+  }
+
+  .hero-bio {
+    font-size: 15px;
+    color: #BEBEBE;
+    line-height: 1.7;
+    margin: 0;
+    border-left: 2px solid var(--c-orange);
+    padding-left: 1rem;
+  }
+
+  .hero-links {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .btn-primary {
+    background: var(--c-orange);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 18px;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .btn-secondary {
+    background: transparent;
+    color: #BEBEBE;
+    border: 0.5px solid #3A3A3A;
+    border-radius: 8px;
+    padding: 8px 18px;
+    font-size: 13px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .btn-primary:hover { background: var(--c-orange-light); }
+  .btn-secondary:hover { border-color: var(--c-orange); color: var(--c-orange); }
+</style>

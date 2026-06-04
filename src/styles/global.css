@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+:root {
+    --c-orange: #E8631A;
+    --c-orange-light: #F07E3A;
+    --c-dark: #1C1C1C;
+    --c-dark-card: #242424;
+    --c-text-muted: #9A9A9A;
+    --font-main: 'Inter', system-ui, sans-serif;
+}
+
+
+body {
+    background: #141414;
+  font-family: var(--font-main);
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  overflow: visible;
+}
+
+html {
+  scroll-behavior: smooth;
+}
